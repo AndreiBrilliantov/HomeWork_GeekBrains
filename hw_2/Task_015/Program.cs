@@ -30,7 +30,7 @@ bool InArray(int[] arr, int sNumber){
 int number = InputNumber();
 while (number < 1 || number > 7)
 {
-    Console.WriteLine("Not the number of the day of the week!");
+    OutNumber(number, "Not the number of the day of the week!");
     number = InputNumber();
 }
 int[] weekendDays = new int[]{6, 7};
