@@ -9,8 +9,8 @@
 */
 
 
-int InputNumber() {
-    Console.WriteLine("Input your day number =>");
+int InputNumber(string msg = "Input your number =>") {
+    Console.WriteLine(msg);
     return Convert.ToInt32(Console.ReadLine());
 }
 void OutNumber(int number, string str1) {
@@ -36,6 +36,16 @@ while (number < 1 || number > 7)
     number = InputNumber();
 }
 
+switch (InArray(weekendDays, number))
+{
+    case true:
+        OutNumber(number, "Da");
+        break;
+    case false:
+        OutNumber(number, "Net");
+        break;
+}
+/*
 if (InArray(weekendDays, number))
 {
     OutNumber(number, "Da");
@@ -44,3 +54,4 @@ else
 {
     OutNumber(number, "Net");
 }
+*/

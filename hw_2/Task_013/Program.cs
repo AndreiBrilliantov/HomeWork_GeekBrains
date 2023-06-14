@@ -9,18 +9,32 @@
 
 */
 
-Console.WriteLine("Input your number =>");
-int number = Convert.ToInt32(Console.ReadLine());
-Console.Write($"{number} -> ");
-if (number / 100 > 0)
+int InputNumber(string msg = "Input your number =>") {
+    Console.WriteLine(msg);
+    return Convert.ToInt32(Console.ReadLine());
+}
+
+void OutNumber(int number, string str1) {
+    Console.WriteLine($"{number} -> {str1}");
+}
+
+void GetDigitOfNumber (int number, int digitPos) 
 {
-    while (number >= 10 )
+    int digitPos_ = Convert.ToInt32(Math.Pow(10, digitPos - 1 ));
+    int digit = Math.Abs(number);
+    if (number / digitPos_ > 0)
     {
-        number = (number / 100 < 10) ? (number % 10) : (number / 10);
+        while (digit >= 10 )
+        {
+            digit = (digit / digitPos_ < 10) ? (digit % 10) : (digit / 10);
+        }
+        OutNumber(number, Convert.ToString(digit));
     }
-    Console.Write(number);
+    else
+    {
+        OutNumber(number, $"{digitPos} цифры нет");
+    }    
+    
 }
-else
-{
-    Console.Write("третьей цифры нет");
-}
+
+GetDigitOfNumber(InputNumber("Укажите число:"), InputNumber("Укажите позицию в числе:"));
