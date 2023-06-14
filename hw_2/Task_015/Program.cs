@@ -27,13 +27,15 @@ bool InArray(int[] arr, int sNumber){
     return false;
 }
 
+
+int[] weekendDays = new int[]{6, 7};
 int number = InputNumber();
 while (number < 1 || number > 7)
 {
     OutNumber(number, "Not the number of the day of the week!");
     number = InputNumber();
 }
-int[] weekendDays = new int[]{6, 7};
+
 if (InArray(weekendDays, number))
 {
     OutNumber(number, "Da");
