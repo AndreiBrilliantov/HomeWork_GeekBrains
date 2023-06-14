@@ -1,0 +1,15 @@
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.csproj.AssemblyReference.cache
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.AssemblyInfoInputs.cache
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.AssemblyInfo.cs
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.csproj.CoreCompileInputs.cache
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/bin/Debug/net6.0/Task_015
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/bin/Debug/net6.0/Task_015.deps.json
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/bin/Debug/net6.0/Task_015.runtimeconfig.json
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/bin/Debug/net6.0/Task_015.dll
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/bin/Debug/net6.0/Task_015.pdb
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.dll
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/refint/Task_015.dll
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.pdb
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/Task_015.genruntimeconfig.cache
+/Users/dreamcooloo/Desktop/HomeWork_java/hw_csharp/hw_2/Task_015/obj/Debug/net6.0/ref/Task_015.dll
