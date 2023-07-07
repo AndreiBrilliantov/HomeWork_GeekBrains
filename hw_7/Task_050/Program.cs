@@ -57,8 +57,6 @@ void PrintArray(int [,] array) {
 }
 int [,] array = CreateArray(3, 4, -100, 100);
 PrintArray(array);
-//int userRow = InputNumber("Input row number");
-//int userCol = InputNumber("Input col number");
 (int row, int col) positionEl = (InputNumber("Input row number"), InputNumber("Input col number"));
 var el = GetElement(array, positionEl.row - 1, positionEl.col - 1);
 
